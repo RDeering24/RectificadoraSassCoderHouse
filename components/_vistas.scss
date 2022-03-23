@@ -1,0 +1,84 @@
+@media (max-width: 992px){
+    .menu-btn {
+        display: block;
+        margin-right: 50px;
+         &:hover{
+            opacity: 0.5;
+         }
+    }
+
+    .nav-main{
+        ul.nav-menu{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #3d4550;
+            width: 40%;
+            height: 80%;
+            border-right: #ccc 1px solid;
+            opacity: 0.9;
+            padding: 30px;
+            transform: translateX(-500px);
+            transition: transform 2s ease-in-out;
+ 
+            show{
+                transform: translateX(-20px);
+            }
+            .show{
+                transform: translateX(-20px);
+            }
+            .nav-menu-right{
+                margin-right: 50px;
+
+                a{
+                    i{
+                        color: black;
+                    }
+                }
+            }
+            li{
+                padding: 20px;
+                border-bottom: #ccc solid 1px;
+                font-size: 14px;
+
+                &:last-child{
+                    border-bottom: 0;
+                }
+                a{
+                    color: #ffffff; 
+                    
+                }
+            }
+              
+            
+        }
+
+    }
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: 20px;
+    }
+    .principal {
+        background-size: contain;
+    }
+    hr {
+        margin-bottom: 30px;
+    }
+    .social {
+        position: hidden;
+        left: 200px
+    }
+    .fab {
+        color: blue;
+    }
+    .opciones {
+        grid-template-columns: 1fr;
+    }
+    .mapouter h2 {
+        background-color: red;
+    }
+}

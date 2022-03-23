@@ -1,0 +1,26 @@
+div{
+    .opciones {
+        grid-area: div;
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+        background: #262626;
+
+        a{
+            padding: 80px;
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 25px;
+            margin: 20px;
+            color: whitesmoke;
+
+            &:hover{
+                color: white;
+                background-color: #2f3648;
+                opacity: .6;
+            }
+        }
+    }
+}

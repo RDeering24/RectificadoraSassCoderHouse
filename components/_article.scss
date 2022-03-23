@@ -1,0 +1,43 @@
+article{
+    
+    grid-area: article;
+    .social {
+        margin: 50px;
+        position: relative;
+        left: 350px;
+        width: 40%;
+
+        p{
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-right: 60px;
+
+        a{
+            margin: 0 30px;
+
+            i{
+                font-size: 3rem;
+            }
+
+        }
+    }
+
+    .frase1 {
+        color: #fff;
+    }
+    
+    .frase2 {
+        color: #ffffff;
+    }
+    
+    
+    
+}
